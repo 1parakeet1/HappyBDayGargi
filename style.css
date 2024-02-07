@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: bisque;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.swiper{
+    width: 35%;
+    height: fit-content;
+    display:inline;
+    margin-bottom: 250px;
+    margin-right: 250px;
+    
+}
+
+.swiper-slide img{
+    width: 90%;
+    height: 70vh;
+    object-fit:cover;
+    border: solid 10px coral;
+}
+
+.swiper [class^="swiper-button-"]{
+width: 50px;
+padding-right: 28px;
+
+
+}
+
+
+#bday{
+    color: coral;
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#para{
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 25px;
+    border: solid 10px coral; 
+}
+
